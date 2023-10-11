@@ -1,0 +1,62 @@
+select {
+  border: 2px solid gray;
+  border-radius: 2px;
+  padding: 10px !important;
+}
+
+input {
+  padding: 10px;
+}
+
+.custom-input {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: larger;
+}
+
+.start-button:disabled {
+  color: white;
+  background-color: gray !important;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(29, 140, 120);
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(142, 142, 142, 0.147);
+  /* Change this to the desired color */
+}
+
+.weekly-box {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.weekly-row {
+  display: flex;
+  gap: 20px;
+}
+
+.weekly-row>div:nth-child(even) {
+  font-weight: bold;
+  color: rgb(0, 132, 88);
+}
